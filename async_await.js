@@ -12,21 +12,18 @@
 
 //without async/await
 
-// const p = new Promise((resolve, reject) => {
-//     resolve("Promise Resolved")
-// })
+const p = new Promise((resolve, reject) => {
+    resolve("Promise Resolved")
+})
 
-// getData = () => {
-//     console.log("Before promise resolved");
-//     p.then((res) => {
-//         console.log(res);
-//     })
-// }
+getData = () => {
+    console.log("Before promise resolved");
+    p.then((res) => {
+        console.log(res);
+    })
+}
 
-// getData()
-
+getData()
 
 //with async/await
-
-
 
